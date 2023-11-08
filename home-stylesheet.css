@@ -24,6 +24,13 @@ a
     margin-left: 0px;
     margin-bottom: 490px;
 }
+.content 
+{
+    position: fixed;
+    bottom: 0;
+    color: #f1f1f1;
+    width: 10%;
+}
 /*--------------*/
 
 /* Background */
@@ -34,13 +41,6 @@ a
     top: 0px;
     min-width: 100%; 
     min-height: 40%;
-}
-.content 
-{
-    position: fixed;
-    bottom: 0;
-    color: #f1f1f1;
-    width: 10%;
 }
 .wandefct
 {
@@ -225,12 +225,57 @@ html
     position: absolute;
     margin-left: 150px;
     margin-top: 160px;
+    transition: all 0.5s ease-out;
+}
+.dev:hover > img
+{
+    filter: hue-rotate(90deg);
+}
+.devtxt
+{
+    position: absolute;
+    margin-top: -400px;
+    margin-left: 190px;
+    font-family: 'Playfair Display';
+    color: #ffffff;
+    font-size: 18px;
+    text-shadow: .1em .1em 0 hsl(0, 0%, 0%);
+    text-align: right;
+    opacity: 0%;
+    transition: all 0.5s ease-out;
+}
+.dev:hover > .devtxt
+{
+    opacity: 100%;
+    margin-left: 225px;
 }
 .des
 {
     position: absolute;
     margin-left: 850px;
     margin-top: -20px;
+}
+.des:hover > img
+{
+    filter: hue-rotate(90deg);
+}
+.destxt
+{
+    position: absolute;
+    margin-top: -250px;
+    margin-left: -65px;
+    font-family: 'Playfair Display';
+    color: #ffffff;
+    font-size: 18px;
+    text-shadow: .1em .1em 0 hsl(0, 0%, 0%);
+    text-align: right;
+    opacity: 0%;
+    transition: all 0.5s ease-out;
+}
+.des:hover > .destxt
+{
+    opacity: 100%;    
+    margin-left: -100px;
 }
 .star3
 {

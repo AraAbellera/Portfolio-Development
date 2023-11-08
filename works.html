@@ -8,6 +8,11 @@
     </header>
     <body>
         <link rel="stylesheet" href="work-stylesheet.css" >
+        <div class="back">
+            <div class="dev">
+                <img width="450px" height="450px" src="images/adam.png">
+            </div>
+        </div>
         <!-- Navigation Bar -->
         <div class="content">
             <!-- Icon -->
@@ -15,15 +20,51 @@
                 <img width="110px" height="110px" src="images/hat.png">
             </div>
             <div class="nav">
-                <a href="portfolio.html#home">HOME</a></br></br>
-                <a href="portfolio.html#about">ABOUT</a></br></br>
-                <a href="portfolio.html#portfolio">PORTFOLIO</a></br></br>
-                <a href="portfolio.html#contact">CONTACT</a>
+                <a href="#home">HOME</a></br></br>
+                <a href="#about">ABOUT</a></br></br>
+                <a href="#portfolio">PORTFOLIO</a></br></br>
+                <a href="#contact">CONTACT</a>
             </div>
         </div>
         <!--------------------------->
+        <div class="t1">Bill Please!</div>
+        <div class="t2">MyModules</div>  
+        <div class="t3">Songlist</div>
+        <div class="t4">Hover to play video!</div>
 
-        
-
+        <div class="flex-container">
+            <div class="w1">
+                <video src="videos/bill.mp4" type="video/mp4"  class="vid1" muted></video> 
+            </div>
+            <div class="w2">
+                <video src="videos/mod.mp4" type="video/mp4"  class="vid2" muted></video> 
+            </div>
+            <div class="w3">
+                <video src="videos/song.mp4" type="video/mp4"  class="vid3" muted></video> 
+            </div>
+            <script>  
+                let clip1 = document.querySelector(".vid1") 
+                clip1.addEventListener("mouseover", function (e) { 
+                    clip1.play(); 
+                })
+                clip1.addEventListener("mouseout", function (e) { 
+                    clip1.pause(); 
+                })
+                let clip2 = document.querySelector(".vid2") 
+                clip2.addEventListener("mouseover", function (e) { 
+                    clip2.play(); 
+                })
+                clip2.addEventListener("mouseout", function (e) { 
+                    clip2.pause(); 
+                }) 
+                let clip3 = document.querySelector(".vid3") 
+                clip3.addEventListener("mouseover", function (e) { 
+                    clip3.play(); 
+                })
+                clip3.addEventListener("mouseout", function (e) { 
+                    clip3.pause(); 
+                }) 
+            </script>
+        </div>
     </body>
 </html>

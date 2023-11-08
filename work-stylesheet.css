@@ -24,11 +24,96 @@ a
     margin-left: 0px;
     margin-bottom: 490px;
 }
+.content 
+{
+    position: fixed;
+    bottom: 0;
+    color: #f1f1f1;
+    width: 10%;
+}
 /*--------------*/
 
 /* Background */
+.flex-container
+{
+    display: flex;
+    margin-left: 430px;
+}
+  
+.flex-container > div
+{
+    margin: 120px;
+}
 body
 {
-    background-color: black;
+    background-color: #231F20;
+}
+.back
+{
+    margin-top: -830px;
+    margin-left: 148px;
+}
+.sL3
+{
+    position: absolute;
+    top: -400px;
+}
+.dev
+{
+    position: absolute;
+    top: 150px;
 }
 /*--------------*/
+
+video
+{
+    position: absolute;
+    width: 200px;
+    height: 300px;
+    top: 80px;
+    border-radius: 10%;
+}
+.t1
+{
+    position: absolute;
+    top: 390px;
+    margin-left: 610px;
+    font-family: 'Playfair Display';
+    color: #ffffff;
+    font-size: 18px;
+    text-shadow: .1em .1em 0 hsl(0, 0%, 0%);
+    text-align: right;
+}
+.t2
+{
+    position: absolute;
+    top: 390px;
+    margin-left: 845px;
+    font-family: 'Playfair Display';
+    color: #ffffff;
+    font-size: 18px;
+    text-shadow: .1em .1em 0 hsl(0, 0%, 0%);
+    text-align: right;
+}
+.t3
+{
+    position: absolute;
+    top: 390px;
+    margin-left: 1095px;
+    font-family: 'Playfair Display';
+    color: #ffffff;
+    font-size: 18px;
+    text-shadow: .1em .1em 0 hsl(0, 0%, 0%);
+    text-align: right;
+}
+.t4
+{
+    position: absolute;
+    top: 495px;
+    margin-left: 640px;
+    font-family: 'Playfair Display';
+    color: #ffffff;
+    font-size: 18px;
+    text-shadow: .1em .1em 0 hsl(0, 0%, 0%);
+    text-align: right;
+}
