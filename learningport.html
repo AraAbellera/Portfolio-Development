@@ -10,6 +10,45 @@
     <style>
         /* Kreon Semi-Bold Font */
         @import url('https://fonts.googleapis.com/css2?family=Alice&family=DM+Serif+Display&family=Playfair+Display&family=Tangerine&family=Ubuntu&display=swap');
+        
+        .homepage
+        {
+            position: fixed;
+            top: 50;
+            left: 250;
+            font-family: 'Playfair Display';
+            color: white;
+        }
+        h3
+        {
+            color: #37306B;
+            font-weight: bolder;
+            font-size: 50px;
+            text-shadow: .1em .1em 0 hsl(262, 87%, 69%);
+        }
+        .pic
+        {
+            position: fixed;
+            top: 20;
+            left: 750;
+        }
+        .homepage > .text > a
+        {
+            border-radius: 25px;
+            background: #8070f6;
+            padding: 12px;
+            width: 200px;
+            height: 100px;
+            color: 37306B;
+            font-size: 12px;
+            font-weight: bold;
+            text-decoration: none;
+            box-shadow: 3px 3px #37306B;    
+        }
+        .homepage > .text > p
+        {
+            margin-right: 620px;           
+        }
     </style>
     <link rel="stylesheet" type="text/css" href="fullpage.css" />    
     <link rel="stylesheet" type="text/css" href="index-stylesheet.css" />
@@ -21,23 +60,26 @@
                     <div class="bookmark-nav">
                         <img width="110" height="480" src="images/navbar.png">
                     </div>
-                    <a class="home-a" href="#section1">HOME</a><br><br>
-                    <a class="about-a" href="#section2">ABOUT</a><br><br>                  
-                    <a class="port-a" href="#section3">PORTFOLIO</a><br><br>                 
-                    <a class="cont-a" href="#section4">CONTACT</a> 
+                    <div class="hat">
+                        <a href="index.html">
+                            <img width="95" height="95" src="images/hat.png" >
+                        </a>
+                    </div>
+                    <a class="home-a" href="index.html#section1">HOME</a><br><br>
+                    <a class="about-a" href="index.html#section2">ABOUT</a><br><br>                  
+                    <a class="port-a" href="index.html#section3">PORTFOLIO</a><br><br>                 
+                    <a class="cont-a" href="index.html#section4">CONTACT</a> 
                 </nav>
                 <!-- Home page -->
                 <div class="homepage">
-                    <div class="flying-hp">
-                        <img width="580" height="580" src="images/flying.png">
+                    <div class="text">
+                        <h3>SOI Learning Portal</h3>
+                        <p>This is website about a learning portal that provides IT classes. The main page contains multiple information such as courses, benefits, and direct links to other pages.  </p>
+                        <a class="button" href="index.html#section3">BACK TO PORTFOLIO</a>
                     </div>
-                    <div class="text-hp">
-                        <div class="tagline-hp">
-                        BRINGING<br>IMAGINATION<br>INTO LIFE
-                        </div>
-                        <div class="container">
-                            <a class="button" href="#section2">START BROWSING</a>
-                        </div> 
+                    <div class="pic">
+                        <img src="images/works/learn1.png" width="450px" height="250px" alt="Avatar" >
+                        <img style="position: relative;margin-top: 30px;" src="images/works/learn2.png" width="450px" height="250px" alt="Avatar" >
                     </div>
                 </div>
             </div>
