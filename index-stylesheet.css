@@ -1,0 +1,258 @@
+/* Navigation Bar */
+.bookmark-nav
+{
+    position: fixed;
+    top: 0;
+    left: 60px;
+    z-index: -1;
+}
+.navbar
+{
+    position: fixed;
+    top: 120;
+    left: 72px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-items: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);   
+}
+.navbar > a
+{
+    color: white;
+    font-family: 'Playfair Display';
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+/* Homepage */
+.flying-hp
+{
+    position: fixed;
+    top: 0;
+    left: 680px;
+}
+.text-hp
+{
+    position: fixed;
+    top: 50px;
+    left: 380px;
+
+}
+.text-hp > .container
+{
+    position: fixed;
+    top: 380px;
+    left: 240px;
+}
+.tagline-hp
+{
+    position: absolute;
+    font-family: 'Playfair Display';
+    color: #37306B;
+    font-weight: bolder;
+    font-size: 65px;
+    text-shadow: .1em .1em 0 hsl(262, 87%, 69%);
+    position: fixed;
+    left: 250px;
+}
+.button
+{
+    border-radius: 25px;
+    background: #8070f6;
+    padding: 12px;
+    width: 200px;
+    height: 100px;
+    color: 37306B;
+    font-weight: bolder;
+    text-decoration: none;
+    box-shadow: 3px 3px #37306B;
+}
+
+/* About page */
+.tarot-img
+{
+    position: absolute;
+    top: 50;
+    left: 780px;
+}
+.header-abt
+{
+    position: absolute;
+    font-family: 'Playfair Display';
+    color: #37306B;
+    font-weight: bolder;
+    font-size: 65px;
+    text-shadow: .1em .1em 0 hsl(262, 87%, 69%);
+    top: 20;
+    left: 250px;
+}
+.text-abt
+{
+    position: absolute;
+    font-family: 'Playfair Display';
+    color: white;
+    font-size: 20px;
+    top: 130;
+    left: 250px;
+    margin-right: 500px;
+}
+.header2-abt
+{
+    position: absolute;
+    font-family: 'Playfair Display';
+    color: #37306B;
+    font-weight: bolder;
+    font-size: 30px;
+    text-shadow: .1em .1em 0 hsl(262, 87%, 69%);
+    top: 310;
+    left: 250px;
+}
+.text2-abt
+{
+    position: absolute;
+    top: 360;
+    left: 250px;
+    font-family: 'Playfair Display';
+    color: white;
+    font-size: 18px;
+}
+
+/* Portfolio page */
+.header-port
+{
+    position: absolute;
+    font-family: 'Playfair Display';
+    color: #fc8da0;
+    font-weight: bolder;
+    font-size: 65px;
+    text-shadow: .1em .1em 0 hsl(0, 26%, 37%);
+    top: 20;
+    left: 518px;
+    margin-right: 50px;
+    text-align: right;
+}
+.michael-port
+{
+    position: absolute;
+    top: -10;
+    left: 165px;
+}
+.adam-port
+{
+    position: absolute;
+    top: 280;
+    left: 930px;
+}
+.works-port1
+{
+    /* border: 1px solid black; */
+    width: 450px;
+    height: 400px;           
+    position: absolute;
+    top: 120;
+    left: 460px;
+    /* border: 1px solid black; */
+}
+.col
+{
+    max-height:200px;
+    max-width: 130px;
+    /* border: 1px solid black; */
+    margin-left: 11px;
+    padding: 20px;
+}
+.w3-button
+{
+    border-radius: 25px;
+    background: #8070f6;
+    width: 80px;
+    height: 20px;
+    color: #37306B;
+    font-weight: bolder;
+    text-decoration: none;
+    font-size: 10px;
+}
+.w3-card-4
+{
+    font-weight: bolder;
+    color: white;
+}
+.r2
+{
+    margin-top: 20;
+}
+#development
+{
+    display: none;
+}
+.text-port
+{
+    position: absolute;
+    font-family: 'Playfair Display';
+    color: white;
+    font-size: 20px;
+    top: 50;
+    left: 950px;
+    margin-right: 50px;
+    text-align: right;
+}
+
+/* Contact page */
+.cont-img
+{
+    position: absolute;
+    top: 20;
+    left: 120px;
+}
+.header-cont
+{
+    position: absolute;
+    font-family: 'Playfair Display';
+    color: #fc8da0;
+    font-weight: bolder;
+    font-size: 65px;
+    text-shadow: .1em .1em 0 hsl(0, 26%, 37%);
+    top: 20;
+    left: 600px;
+    margin-right: 50px;
+    text-align: right;
+}
+.text-cont
+{
+    position: absolute;
+    top: 360;
+    left: 250px;
+    font-family: 'Playfair Display';
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    top: 230;
+    left: 750px;
+}
+.cont-icon
+{
+    position: absolute;
+    text-align: left;
+    top: 100;
+    text-decoration: none;
+    color: white;
+}
+.cont-icon > a
+{
+    text-decoration: none;
+    color: white;
+}
+
+.w3-container > a
+{
+    border-radius: 25px;
+    background: #fc8da0;
+    padding: 3px;
+    width: 110px;
+    height: 70px;
+    color: #7b454e;
+    font-weight: bolder;
+    text-decoration: none;
+    box-shadow: 3px 3px #7b454e;
+}
